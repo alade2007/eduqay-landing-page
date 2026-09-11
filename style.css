@@ -23,6 +23,7 @@
 body {
   font-family: "Poppins", sans-serif;
   background: var(--background);
+  scroll-behavior: smooth;
 }
 
 h1 {
@@ -39,6 +40,7 @@ h2 {
 a:link {
   text-decoration: none;
 }
+
 a:hover {
   text-decoration: underline;
   color: #64748b;
@@ -53,6 +55,10 @@ span {
   display: flex;
   justify-content: space-between;
   padding: 5px 20px;
+  position: fixed;
+  z-index: 2;
+  width: 100%;
+  background: var(--background);
 }
 
 .logo {
@@ -68,6 +74,10 @@ span {
   flex-shrink: 0;
 }
 
+.logo:hover {
+  text-decoration: none;
+}
+
 .logo span {
   font-size: 1.25rem;
   font-weight: 800;
@@ -80,8 +90,9 @@ main {
 }
 
 header {
-  padding: 1.5rem;
+  padding: 7rem 1.5rem 1.5rem;
   background: var(--headerbg);
+  /* padding-top: 50px; */
 }
 
 .hero-content {
@@ -232,9 +243,6 @@ section {
 }
 
 .num-style {
-  font-size: 1.25rem;
-  font-weight: bold;
-  color: var(--primary);
   letter-spacing: 0.5rem;
 }
 
@@ -247,11 +255,8 @@ section {
   display: grid;
   grid-template-columns: repeat(4, minmax(0, 1fr));
   gap: 1.5rem;
+  padding: 1.5rem 0.5rem;
 }
-
-/* .features-card {
-  display: flex;
-} */
 
 .pricing-container {
   display: flex;
@@ -275,10 +280,6 @@ section {
 
 ul {
   list-style-type: none;
-}
-
-li::before {
-  content: "✔";
 }
 
 p > small {
@@ -313,4 +314,37 @@ footer {
 
 .footer-links-right a {
   color: #0a0a0a;
+}
+
+/* Icon styling */
+
+svg {
+  width: 16px;
+  height: 16px;
+  color: #0a0a0a;
+  stroke-width: 2;
+}
+
+.cta-btn-pricing svg {
+  width: 16px;
+  height: 16px;
+  color: #0a0a0a;
+  stroke-width: 2;
+  translate: 0 0.15rem;
+}
+
+.cta-btn-footer svg {
+  width: 16px;
+  height: 16px;
+  color: #ffffff;
+  stroke-width: 2;
+  translate: 0 0.15rem;
+}
+
+li svg {
+  width: 16px;
+  height: 16px;
+  color: #028090;
+  stroke-width: 2;
+  translate: 0 0.15rem;
 }

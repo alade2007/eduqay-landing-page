@@ -92,7 +92,6 @@ main {
 header {
   padding: 7rem 1.5rem 1.5rem;
   background: var(--headerbg);
-  /* padding-top: 50px; */
 }
 
 .hero-content {
@@ -274,6 +273,7 @@ section {
   border-radius: var(--border-radius);
   padding: 1.5rem;
 }
+
 .popular {
   border: 1px solid var(--primary);
 }

@@ -24,8 +24,6 @@ body {
   font-family: "Poppins", sans-serif;
   background: var(--background);
   scroll-behavior: smooth;
-  color: var(--heading);
-  overflow-x: hidden;
 }
 
 h1 {
@@ -56,13 +54,11 @@ span {
 .nav-bar {
   display: flex;
   justify-content: space-between;
-  align-items: center;
-  padding: 5px clamp(1rem, 4vw, 3rem);
+  padding: 5px 20px;
   position: fixed;
   z-index: 2;
   width: 100%;
   background: var(--background);
-  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
 }
 
 .logo {
@@ -94,7 +90,7 @@ main {
 }
 
 header {
-  padding: 7rem 1.5rem 4rem;
+  padding: 7rem 1.5rem 1.5rem;
   background: var(--headerbg);
 }
 
@@ -292,12 +288,15 @@ section {
 }
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 .card span {
   display: inline-block;
   font-weight: 700;
 }
 >>>>>>> f3767fb (update style.css to fix the homepage link card styling and button font size)
+=======
+>>>>>>> 8e852e1 (updating the recommended text in the pricing section and adjusting the grid layout for responsiveness.)
 .popular {
   border: 1px solid var(--primary);
 }
@@ -356,6 +355,7 @@ svg {
   width: 16px;
   height: 16px;
   color: #0a0a0a;
+  stroke-width: 2;
   translate: 0 0.15rem;
 }
 
@@ -363,6 +363,7 @@ svg {
   width: 16px;
   height: 16px;
   color: #ffffff;
+  stroke-width: 2;
   translate: 0 0.15rem;
 }
 
@@ -370,8 +371,10 @@ li svg {
   width: 16px;
   height: 16px;
   color: #028090;
+  stroke-width: 2;
   translate: 0 0.15rem;
 }
+<<<<<<< HEAD
 
 <<<<<<< HEAD
 @media (max-width: 480px) {
@@ -493,3 +496,5 @@ li svg {
 >>>>>>> f3767fb (update style.css to fix the homepage link card styling and button font size)
   }
 }
+=======
+>>>>>>> 8e852e1 (updating the recommended text in the pricing section and adjusting the grid layout for responsiveness.)

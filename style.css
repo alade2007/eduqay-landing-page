@@ -287,16 +287,6 @@ section {
   padding: 1.5rem;
 }
 
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
-.card span {
-  display: inline-block;
-  font-weight: 700;
-}
->>>>>>> f3767fb (update style.css to fix the homepage link card styling and button font size)
-=======
->>>>>>> 8e852e1 (updating the recommended text in the pricing section and adjusting the grid layout for responsiveness.)
 .popular {
   border: 1px solid var(--primary);
 }
@@ -374,9 +364,7 @@ li svg {
   stroke-width: 2;
   translate: 0 0.15rem;
 }
-<<<<<<< HEAD
 
-<<<<<<< HEAD
 @media (max-width: 480px) {
   .container {
     grid-template-columns: repeat(1, minmax(0, 1fr));
@@ -407,17 +395,11 @@ li svg {
     grid-template-columns: repeat(2, minmax(0, 1fr));
   }
 
-=======
-@media (max-width: 900px) {
-  .roles,
-  .process,
->>>>>>> f3767fb (update style.css to fix the homepage link card styling and button font size)
   .features {
     grid-template-columns: repeat(2, minmax(0, 1fr));
   }
 
   .pricing-container {
-<<<<<<< HEAD
     grid-template-columns: repeat(1, minmax(0, 1fr));
   }
 }
@@ -441,60 +423,5 @@ li svg {
 
   .pricing-container {
     grid-template-columns: repeat(2, minmax(0, 1fr));
-=======
-    grid-template-columns: 1fr;
-    max-width: 560px;
-    margin: 0 auto;
   }
 }
-
-@media (max-width: 640px) {
-  h1 {
-    font-size: clamp(2rem, 10vw, 3rem);
-    line-height: 1.1;
-  }
-
-  h2 {
-    font-size: clamp(1.5rem, 7vw, 2.2rem);
-    line-height: 1.2;
-  }
-
-  header {
-    padding: 6rem 1rem 2.5rem;
-  }
-
-  .container,
-  .roles,
-  .process,
-  .features {
-    grid-template-columns: 1fr;
-  }
-
-  section {
-    width: min(100% - 2rem, 1200px);
-    margin: 45px auto;
-  }
-
-  .roles,
-  .features {
-    margin: 30px 0;
-  }
-
-  .process {
-    gap: 1rem;
-  }
-
-  .cta-btn-pricing,
-  .cta-btn-footer {
-    width: 100%;
-  }
-
-  .footer-links {
-    align-items: center;
-    flex-direction: column;
-    text-align: center;
->>>>>>> f3767fb (update style.css to fix the homepage link card styling and button font size)
-  }
-}
-=======
->>>>>>> 8e852e1 (updating the recommended text in the pricing section and adjusting the grid layout for responsiveness.)

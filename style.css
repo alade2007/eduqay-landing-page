@@ -7,9 +7,9 @@
 :root {
   --primary: #0d47a1;
   --primary-light: #1976d2;
-  --accent: #f7931e;
+  --accent: #1976d2;
   --gray: #eeeef0;
-  --secondary-btn-text: #0a0a0a;
+  --secondary-text: #0a0a0a;
   --heading: #172b4d;
   --text: #64748b;
   --background: #f8fafc;
@@ -17,7 +17,7 @@
   --white: #ffffff;
   --border: #e2e8f0;
   --success: #16a34a;
-  --border-radius: 12px;
+  --border-radius: 25px;
 }
 
 body {
@@ -133,12 +133,12 @@ button[type="button"]:hover {
 
 .cta-btn-pricing {
   background-color: var(--accent);
-  color: var(--secondary-btn-text);
+  color: var(--white);
   font-size: 1rem;
 }
 
 .cta-btn-pricing:hover {
-  background-color: #ff9e00;
+  background-color: #1976d2;
   transition: background 0.3s ease;
   cursor: pointer;
 }
@@ -179,7 +179,7 @@ button[type="button"]:hover {
 }
 
 .cta-btn-footer:hover {
-  background-color: #ff9e00;
+  background-color: #0d47a1;
   transition: background 0.3s ease-in-out;
   cursor: pointer;
 }
@@ -198,7 +198,7 @@ section {
   border-radius: 8px;
   font-size: 0.65rem;
   font-weight: 600;
-  color: #ce5800;
+  color: #2563eb;
   background-color: var(--white);
 }
 
@@ -300,8 +300,8 @@ p > small {
 }
 
 .homepage-link-card {
-  background: var(--primary-light);
-  color: var(--white);
+  background: var(--headerbg);
+  color: var(--secondary-text);
   width: 100%;
   padding: 1.5rem;
   margin: 0;
@@ -329,7 +329,7 @@ footer {
 }
 
 .footer-links-right a {
-  color: #0a0a0a;
+  color: var(--secondary-text);
 }
 
 /* Icon styling */

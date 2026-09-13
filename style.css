@@ -337,14 +337,14 @@ footer {
 svg {
   width: 16px;
   height: 16px;
-  color: var(--secondary-text);
+  color: var(--primary);
   stroke-width: 2;
 }
 
 .cta-btn-pricing svg {
   width: 16px;
   height: 16px;
-  color: #0a0a0a;
+  color: #fff;
   stroke-width: 2;
   translate: 0 0.15rem;
 }
